@@ -64,3 +64,53 @@ print("Recall:", recall)
 print("F1 Score:", f1)
 print("Confusion Matrix:\n", conf_matrix)
 
+合并数据集
+处理数据
+选取特征:
+Init_Win_bytes_forward : 0.02839997558808195
+ Packet Length Mean : 0.03537326627750036
+Total Length of Fwd Packets : 0.035864555776639974
+ Packet Length Variance : 0.03759756301716146
+ Avg Bwd Segment Size : 0.038742342329527245
+ Bwd Packet Length Std : 0.03889373166108754
+ Destination Port : 0.039136638144921486
+ Bwd Packet Length Mean : 0.03998272128116984
+ Average Packet Size : 0.05011675066668057
+ Packet Length Std : 0.05313231587881751
+/environment/miniconda3/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Accuracy: 0.9905696203649569
+Precision: 0.9899962960344594
+Recall: 0.9905696203649569
+F1 Score: 0.9898448011292031
+Confusion Matrix:
+ [[451436      0      1      4   2684     12      0      0      0      0
+     297      0      0      0      0]
+ [   258    132      0      0      0      0      0      0      0      0
+       0      0      0      0      0]
+ [    60      0  25523      0      0      0      0      0      0      0
+       0      0      0      0      0]
+ [   372      0      0   1701      0      1      0      0      0      0
+       0      0      0      0      0]
+ [   165      0      0      2  46319      0      0      0      0      0
+       0      0      0      0      0]
+ [   600      0      0      0      0    468      4      0      0      0
+       0      0      0      0      0]
+ [   333      0      0      0      0      4    836      0      0      0
+       0      0      0      0      0]
+ [     3      0      0      0      0      0      0   1609      0      0
+       0      0      0      0      0]
+ [     0      0      0      0      0      0      0      0      2      0
+       0      0      0      0      0]
+ [     5      0      0      0      0      0      0      0      0      0
+       0      0      0      0      0]
+ [    76      0      0      0     13      0      0      0      0      0
+   31622      0      0      0      0]
+ [    11      0      0      0      0      0      0      0      0      0
+       0   1162      0      0      0]
+ [   308      0      0      0      0      0      0      0      0      0
+       0      0      0      0      0]
+ [     6      0      0      0      1      0      0      0      0      0
+       0      0      0      0      0]
+ [   118      0      0      0      1      0      0      0      0      0
+       0      0      0      0      0]]
